@@ -93,14 +93,7 @@ z-index: -1;
             <!-- </div> -->
   
            
-           <div style="
-            
-            display: flex !important;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-            
-            ">
+           <div class="flex flex-column content-start items-start items-center lg-items-start" style=" ">
 <!-- 
 <div class="inline-block br-round bg-yellow-30 yellow-lightest p-4 pr-0 fs-s2 mb-5">
     <div class="inline-block bg-yellow br-round px-3 py-1 mr-0 fs-s3" style="color:black;">HPIT05</div>
@@ -211,506 +204,502 @@ z-index: -1;
 
           </div>
 </div>
+
+
+
+<div class="p-12 flex flex-wrap">
+  <div class="w-100pc md-w-50pc">
+      <div class="p-5">
+          <h4 class="yellow fw-800 fs-l3 mb-5">Shop 12" & Merch</h4>
+          <div class="indigo-lightest fw-600 fs-m1 opacity-50">"Rolla' Disco" spans multiple genres of House Music, showcasing the diverse energy that comes with an education in Chicago Dj Culture. Looped disco house, deep afro-beat, and a beat track from the early 90s round out his first EP in over a decade on Housepit CHI Records.</div>
+          <h4 class="white fw-600 fs-m2 mt-10">Shop Digital:</h4>
+          <div class="flex indigo-lightest opacity-50">
+            <div class="w-25pc">
+
+
+              <img src="assets/images/logo_bc.svg" class="w-l9" alt="">
+
+            </div>
+            <div class="w-25pc">
+
+
+              <img src="assets/images/logo_trx.svg" class="w-l9" alt="">
+
+              
+            </div>
+            <div class="w-25pc">
+
+
+              <img src="assets/images/logo_spot.svg" class="w-l9" alt="">
+
+            </div>
+          </div> 
+      </div>
+  </div>
+
+
+
+<div class="w-100pc md-w-25pc">
+<div class="m-3 p-5 br-8 bg-black overflow-hidden" style="    display: flex;
+justify-content: center;">
+<div id='product-component-1638310031334'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+if (window.ShopifyBuy) {
+if (window.ShopifyBuy.UI) {
+ShopifyBuyInit();
+} else {
+loadScript();
+}
+} else {
+loadScript();
+}
+function loadScript() {
+var script = document.createElement('script');
+script.async = true;
+script.src = scriptURL;
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+script.onload = ShopifyBuyInit;
+}
+function ShopifyBuyInit() {
+var client = ShopifyBuy.buildClient({
+domain: 'housepit-chi.myshopify.com',
+storefrontAccessToken: 'cedeb5399912fad9d95c19941d6465d7',
+});
+ShopifyBuy.UI.onReady(client).then(function (ui) {
+ui.createComponent('product', {
+id: '6620917923972',
+node: document.getElementById('product-component-1638310031334'),
+moneyFormat: '%24%7B%7Bamount%7D%7D',
+options: {
+"product": {
+"styles": {
+"product": {
+"@media (min-width: 601px)": {
+"max-width": "calc(25% - 20px)",
+"margin-left": "20px",
+"margin-bottom": "50px"
+}
+},
+"title": {
+"color": "#000000"
+},
+"button": {
+"font-weight": "bold",
+"font-size": "18px",
+"padding-top": "17px",
+"padding-bottom": "17px",
+"color": "#000000",
+":hover": {
+"color": "#000000",
+"background-color": "#e6cd00"
+},
+"background-color": "#ffe400",
+":focus": {
+"background-color": "#e6cd00"
+},
+"padding-left": "50px",
+"padding-right": "50px"
+},
+"quantityInput": {
+"font-size": "18px",
+"padding-top": "17px",
+"padding-bottom": "17px"
+},
+"price": {
+"font-weight": "bold",
+"color": "#000000"
+},
+"compareAt": {
+"font-weight": "bold",
+"color": "#000000"
+},
+"unitPrice": {
+"font-weight": "bold",
+"color": "#000000"
+}
+},
+"buttonDestination": "modal",
+"contents": {
+"options": false
+},
+"text": {
+"button": "Details"
+}
+},
+"productSet": {
+"styles": {
+"products": {
+"@media (min-width: 601px)": {
+"margin-left": "-20px"
+}
+}
+}
+},
+"modalProduct": {
+"contents": {
+"img": false,
+"imgWithCarousel": true,
+"button": false,
+"buttonWithQuantity": true
+},
+"styles": {
+"product": {
+"@media (min-width: 601px)": {
+"max-width": "100%",
+"margin-left": "0px",
+"margin-bottom": "0px"
+}
+},
+"button": {
+"font-weight": "bold",
+"font-size": "18px",
+"padding-top": "17px",
+"padding-bottom": "17px",
+"color": "#000000",
+":hover": {
+"color": "#000000",
+"background-color": "#e6cd00"
+},
+"background-color": "#ffe400",
+":focus": {
+"background-color": "#e6cd00"
+},
+"padding-left": "50px",
+"padding-right": "50px"
+},
+"quantityInput": {
+"font-size": "18px",
+"padding-top": "17px",
+"padding-bottom": "17px"
+},
+"title": {
+"font-family": "Helvetica Neue, sans-serif",
+"font-weight": "bold",
+"font-size": "26px",
+"color": "#4c4c4c"
+},
+"price": {
+"font-family": "Helvetica Neue, sans-serif",
+"font-weight": "normal",
+"font-size": "18px",
+"color": "#4c4c4c"
+},
+"compareAt": {
+"font-family": "Helvetica Neue, sans-serif",
+"font-weight": "normal",
+"font-size": "15.299999999999999px",
+"color": "#4c4c4c"
+},
+"unitPrice": {
+"font-family": "Helvetica Neue, sans-serif",
+"font-weight": "normal",
+"font-size": "15.299999999999999px",
+"color": "#4c4c4c"
+}
+},
+"text": {
+"button": "Add to cart"
+}
+},
+"option": {},
+"cart": {
+"styles": {
+"button": {
+"font-weight": "bold",
+"font-size": "18px",
+"padding-top": "17px",
+"padding-bottom": "17px",
+"color": "#000000",
+":hover": {
+"color": "#000000",
+"background-color": "#e6cd00"
+},
+"background-color": "#ffe400",
+":focus": {
+"background-color": "#e6cd00"
+}
+}
+},
+"text": {
+"total": "Subtotal",
+"button": "Checkout"
+}
+},
+"toggle": {
+"styles": {
+"toggle": {
+"font-weight": "bold",
+"background-color": "#ffe400",
+":hover": {
+"background-color": "#e6cd00"
+},
+":focus": {
+"background-color": "#e6cd00"
+}
+},
+"count": {
+"font-size": "18px",
+"color": "#000000",
+":hover": {
+"color": "#000000"
+}
+},
+"iconPath": {
+"fill": "#000000"
+}
+}
+}
+},
+});
+});
+}
+})();
+/*]]>*/
+</script>
+</div>
+</div>
+
+
+
+
+
+  
+  <div class="w-100pc md-w-25pc">
+      <div class="m-3 p-5 br-8 bg-black overflow-hidden" style="    display: flex;
+      justify-content: center;">
+          <div id='product-component-1638309936221'></div>
+          <script type="text/javascript">
+          /*<![CDATA[*/
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'housepit-chi.myshopify.com',
+                storefrontAccessToken: 'cedeb5399912fad9d95c19941d6465d7',
+              });
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: '6620904325252',
+                  node: document.getElementById('product-component-1638309936221'),
+                  moneyFormat: '%24%7B%7Bamount%7D%7D',
+                  options: {
+            "product": {
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "calc(25% - 20px)",
+                    "margin-left": "20px",
+                    "margin-bottom": "50px"
+                  }
+                },
+                "title": {
+                  "color": "#000000"
+                },
+                "button": {
+                  "font-weight": "bold",
+                  "font-size": "18px",
+                  "padding-top": "17px",
+                  "padding-bottom": "17px",
+                  "color": "#000000",
+                  ":hover": {
+                    "color": "#000000",
+                    "background-color": "#e6cd00"
+                  },
+                  "background-color": "#ffe400",
+                  ":focus": {
+                    "background-color": "#e6cd00"
+                  },
+                  "padding-left": "50px",
+                  "padding-right": "50px"
+                },
+                "quantityInput": {
+                  "font-size": "18px",
+                  "padding-top": "17px",
+                  "padding-bottom": "17px"
+                },
+                "price": {
+                  "font-weight": "bold",
+                  "color": "#000000"
+                },
+                "compareAt": {
+                  "font-weight": "bold",
+                  "color": "#000000"
+                },
+                "unitPrice": {
+                  "font-weight": "bold",
+                  "color": "#000000"
+                }
+              },
+              "buttonDestination": "modal",
+              "contents": {
+                "options": false
+              },
+              "text": {
+                "button": "Details"
+              }
+            },
+            "productSet": {
+              "styles": {
+                "products": {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-20px"
+                  }
+                }
+              }
+            },
+            "modalProduct": {
+              "contents": {
+                "img": false,
+                "imgWithCarousel": true,
+                "button": false,
+                "buttonWithQuantity": true
+              },
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px"
+                  }
+                },
+                "button": {
+                  "font-weight": "bold",
+                  "font-size": "18px",
+                  "padding-top": "17px",
+                  "padding-bottom": "17px",
+                  "color": "#000000",
+                  ":hover": {
+                    "color": "#000000",
+                    "background-color": "#e6cd00"
+                  },
+                  "background-color": "#ffe400",
+                  ":focus": {
+                    "background-color": "#e6cd00"
+                  },
+                  "padding-left": "50px",
+                  "padding-right": "50px"
+                },
+                "quantityInput": {
+                  "font-size": "18px",
+                  "padding-top": "17px",
+                  "padding-bottom": "17px"
+                },
+                "title": {
+                  "font-family": "Helvetica Neue, sans-serif",
+                  "font-weight": "bold",
+                  "font-size": "26px",
+                  "color": "#4c4c4c"
+                },
+                "price": {
+                  "font-family": "Helvetica Neue, sans-serif",
+                  "font-weight": "normal",
+                  "font-size": "18px",
+                  "color": "#4c4c4c"
+                },
+                "compareAt": {
+                  "font-family": "Helvetica Neue, sans-serif",
+                  "font-weight": "normal",
+                  "font-size": "15.299999999999999px",
+                  "color": "#4c4c4c"
+                },
+                "unitPrice": {
+                  "font-family": "Helvetica Neue, sans-serif",
+                  "font-weight": "normal",
+                  "font-size": "15.299999999999999px",
+                  "color": "#4c4c4c"
+                }
+              },
+              "text": {
+                "button": "Add to cart"
+              }
+            },
+            "option": {},
+            "cart": {
+              "styles": {
+                "button": {
+                  "font-weight": "bold",
+                  "font-size": "18px",
+                  "padding-top": "17px",
+                  "padding-bottom": "17px",
+                  "color": "#000000",
+                  ":hover": {
+                    "color": "#000000",
+                    "background-color": "#e6cd00"
+                  },
+                  "background-color": "#ffe400",
+                  ":focus": {
+                    "background-color": "#e6cd00"
+                  }
+                }
+              },
+              "text": {
+                "total": "Subtotal",
+                "button": "Checkout"
+              }
+            },
+            "toggle": {
+              "styles": {
+                "toggle": {
+                  "font-weight": "bold",
+                  "background-color": "#ffe400",
+                  ":hover": {
+                    "background-color": "#e6cd00"
+                  },
+                  ":focus": {
+                    "background-color": "#e6cd00"
+                  }
+                },
+                "count": {
+                  "font-size": "18px",
+                  "color": "#000000",
+                  ":hover": {
+                    "color": "#000000"
+                  }
+                },
+                "iconPath": {
+                  "fill": "#000000"
+                }
+              }
+            }
+          },
+                });
+              });
+            }
+          })();
+          /*]]>*/
+          </script>
+
+          
+      </div>
+
+      
+  </div>
+</div>     
      
 
 </section>
 
 
 
-
-                    <!-- pricing -->
-                    <section id="pricing">
-                      <div class="p-12 flex flex-wrap">
-                          <div class="w-100pc md-w-50pc">
-                              <div class="p-5">
-                                  <h4 class="yellow fw-800 fs-l3 mb-5">Shop 12" & Merch</h4>
-                                  <div class="indigo-lightest fw-600 fs-m1 opacity-50">"Rolla' Disco" spans multiple genres of House Music, showcasing the diverse energy that comes with an education in Chicago Dj Culture. Looped disco house, deep afro-beat, and a beat track from the early 90s round out his first EP in over a decade on Housepit CHI Records.</div>
-                                  <h4 class="white fw-600 fs-m2 mt-10">Shop Digital:</h4>
-                                  <div class="flex indigo-lightest opacity-50">
-                                    <div class="w-25pc">
-
-
-                                      <img src="assets/images/logo_bc.svg" class="w-l9" alt="">
-                  
-                                    </div>
-                                    <div class="w-25pc">
-                  
-                  
-                                      <img src="assets/images/logo_trx.svg" class="w-l9" alt="">
-                  
-                                      
-                                    </div>
-                                    <div class="w-25pc">
-                  
-                  
-                                      <img src="assets/images/logo_spot.svg" class="w-l9" alt="">
-                  
-                                    </div>
-                                  </div> 
-                              </div>
-                          </div>
-              
-              
-              
-<div class="w-100pc md-w-25pc">
-    <div class="m-3 p-5 br-8 bg-black overflow-hidden" style="    display: flex;
-    justify-content: center;">
-        <div id='product-component-1638310031334'></div>
-              <script type="text/javascript">
-              /*<![CDATA[*/
-              (function () {
-                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                if (window.ShopifyBuy) {
-                  if (window.ShopifyBuy.UI) {
-                    ShopifyBuyInit();
-                  } else {
-                    loadScript();
-                  }
-                } else {
-                  loadScript();
-                }
-                function loadScript() {
-                  var script = document.createElement('script');
-                  script.async = true;
-                  script.src = scriptURL;
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                  script.onload = ShopifyBuyInit;
-                }
-                function ShopifyBuyInit() {
-                  var client = ShopifyBuy.buildClient({
-                    domain: 'housepit-chi.myshopify.com',
-                    storefrontAccessToken: 'cedeb5399912fad9d95c19941d6465d7',
-                  });
-                  ShopifyBuy.UI.onReady(client).then(function (ui) {
-                    ui.createComponent('product', {
-                      id: '6620917923972',
-                      node: document.getElementById('product-component-1638310031334'),
-                      moneyFormat: '%24%7B%7Bamount%7D%7D',
-                      options: {
-                "product": {
-                  "styles": {
-                    "product": {
-                      "@media (min-width: 601px)": {
-                        "max-width": "calc(25% - 20px)",
-                        "margin-left": "20px",
-                        "margin-bottom": "50px"
-                      }
-                    },
-                    "title": {
-                      "color": "#000000"
-                    },
-                    "button": {
-                      "font-weight": "bold",
-                      "font-size": "18px",
-                      "padding-top": "17px",
-                      "padding-bottom": "17px",
-                      "color": "#000000",
-                      ":hover": {
-                        "color": "#000000",
-                        "background-color": "#e6cd00"
-                      },
-                      "background-color": "#ffe400",
-                      ":focus": {
-                        "background-color": "#e6cd00"
-                      },
-                      "padding-left": "50px",
-                      "padding-right": "50px"
-                    },
-                    "quantityInput": {
-                      "font-size": "18px",
-                      "padding-top": "17px",
-                      "padding-bottom": "17px"
-                    },
-                    "price": {
-                      "font-weight": "bold",
-                      "color": "#000000"
-                    },
-                    "compareAt": {
-                      "font-weight": "bold",
-                      "color": "#000000"
-                    },
-                    "unitPrice": {
-                      "font-weight": "bold",
-                      "color": "#000000"
-                    }
-                  },
-                  "buttonDestination": "modal",
-                  "contents": {
-                    "options": false
-                  },
-                  "text": {
-                    "button": "Details"
-                  }
-                },
-                "productSet": {
-                  "styles": {
-                    "products": {
-                      "@media (min-width: 601px)": {
-                        "margin-left": "-20px"
-                      }
-                    }
-                  }
-                },
-                "modalProduct": {
-                  "contents": {
-                    "img": false,
-                    "imgWithCarousel": true,
-                    "button": false,
-                    "buttonWithQuantity": true
-                  },
-                  "styles": {
-                    "product": {
-                      "@media (min-width: 601px)": {
-                        "max-width": "100%",
-                        "margin-left": "0px",
-                        "margin-bottom": "0px"
-                      }
-                    },
-                    "button": {
-                      "font-weight": "bold",
-                      "font-size": "18px",
-                      "padding-top": "17px",
-                      "padding-bottom": "17px",
-                      "color": "#000000",
-                      ":hover": {
-                        "color": "#000000",
-                        "background-color": "#e6cd00"
-                      },
-                      "background-color": "#ffe400",
-                      ":focus": {
-                        "background-color": "#e6cd00"
-                      },
-                      "padding-left": "50px",
-                      "padding-right": "50px"
-                    },
-                    "quantityInput": {
-                      "font-size": "18px",
-                      "padding-top": "17px",
-                      "padding-bottom": "17px"
-                    },
-                    "title": {
-                      "font-family": "Helvetica Neue, sans-serif",
-                      "font-weight": "bold",
-                      "font-size": "26px",
-                      "color": "#4c4c4c"
-                    },
-                    "price": {
-                      "font-family": "Helvetica Neue, sans-serif",
-                      "font-weight": "normal",
-                      "font-size": "18px",
-                      "color": "#4c4c4c"
-                    },
-                    "compareAt": {
-                      "font-family": "Helvetica Neue, sans-serif",
-                      "font-weight": "normal",
-                      "font-size": "15.299999999999999px",
-                      "color": "#4c4c4c"
-                    },
-                    "unitPrice": {
-                      "font-family": "Helvetica Neue, sans-serif",
-                      "font-weight": "normal",
-                      "font-size": "15.299999999999999px",
-                      "color": "#4c4c4c"
-                    }
-                  },
-                  "text": {
-                    "button": "Add to cart"
-                  }
-                },
-                "option": {},
-                "cart": {
-                  "styles": {
-                    "button": {
-                      "font-weight": "bold",
-                      "font-size": "18px",
-                      "padding-top": "17px",
-                      "padding-bottom": "17px",
-                      "color": "#000000",
-                      ":hover": {
-                        "color": "#000000",
-                        "background-color": "#e6cd00"
-                      },
-                      "background-color": "#ffe400",
-                      ":focus": {
-                        "background-color": "#e6cd00"
-                      }
-                    }
-                  },
-                  "text": {
-                    "total": "Subtotal",
-                    "button": "Checkout"
-                  }
-                },
-                "toggle": {
-                  "styles": {
-                    "toggle": {
-                      "font-weight": "bold",
-                      "background-color": "#ffe400",
-                      ":hover": {
-                        "background-color": "#e6cd00"
-                      },
-                      ":focus": {
-                        "background-color": "#e6cd00"
-                      }
-                    },
-                    "count": {
-                      "font-size": "18px",
-                      "color": "#000000",
-                      ":hover": {
-                        "color": "#000000"
-                      }
-                    },
-                    "iconPath": {
-                      "fill": "#000000"
-                    }
-                  }
-                }
-              },
-                    });
-                  });
-                }
-              })();
-              /*]]>*/
-              </script>
-            </div>
-        </div>
-
-              
-              
-              
-              
-                          
-                          <div class="w-100pc md-w-25pc">
-                              <div class="m-3 p-5 br-8 bg-black overflow-hidden" style="    display: flex;
-                              justify-content: center;">
-                                  <div id='product-component-1638309936221'></div>
-                                  <script type="text/javascript">
-                                  /*<![CDATA[*/
-                                  (function () {
-                                    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                                    if (window.ShopifyBuy) {
-                                      if (window.ShopifyBuy.UI) {
-                                        ShopifyBuyInit();
-                                      } else {
-                                        loadScript();
-                                      }
-                                    } else {
-                                      loadScript();
-                                    }
-                                    function loadScript() {
-                                      var script = document.createElement('script');
-                                      script.async = true;
-                                      script.src = scriptURL;
-                                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                                      script.onload = ShopifyBuyInit;
-                                    }
-                                    function ShopifyBuyInit() {
-                                      var client = ShopifyBuy.buildClient({
-                                        domain: 'housepit-chi.myshopify.com',
-                                        storefrontAccessToken: 'cedeb5399912fad9d95c19941d6465d7',
-                                      });
-                                      ShopifyBuy.UI.onReady(client).then(function (ui) {
-                                        ui.createComponent('product', {
-                                          id: '6620904325252',
-                                          node: document.getElementById('product-component-1638309936221'),
-                                          moneyFormat: '%24%7B%7Bamount%7D%7D',
-                                          options: {
-                                    "product": {
-                                      "styles": {
-                                        "product": {
-                                          "@media (min-width: 601px)": {
-                                            "max-width": "calc(25% - 20px)",
-                                            "margin-left": "20px",
-                                            "margin-bottom": "50px"
-                                          }
-                                        },
-                                        "title": {
-                                          "color": "#000000"
-                                        },
-                                        "button": {
-                                          "font-weight": "bold",
-                                          "font-size": "18px",
-                                          "padding-top": "17px",
-                                          "padding-bottom": "17px",
-                                          "color": "#000000",
-                                          ":hover": {
-                                            "color": "#000000",
-                                            "background-color": "#e6cd00"
-                                          },
-                                          "background-color": "#ffe400",
-                                          ":focus": {
-                                            "background-color": "#e6cd00"
-                                          },
-                                          "padding-left": "50px",
-                                          "padding-right": "50px"
-                                        },
-                                        "quantityInput": {
-                                          "font-size": "18px",
-                                          "padding-top": "17px",
-                                          "padding-bottom": "17px"
-                                        },
-                                        "price": {
-                                          "font-weight": "bold",
-                                          "color": "#000000"
-                                        },
-                                        "compareAt": {
-                                          "font-weight": "bold",
-                                          "color": "#000000"
-                                        },
-                                        "unitPrice": {
-                                          "font-weight": "bold",
-                                          "color": "#000000"
-                                        }
-                                      },
-                                      "buttonDestination": "modal",
-                                      "contents": {
-                                        "options": false
-                                      },
-                                      "text": {
-                                        "button": "Details"
-                                      }
-                                    },
-                                    "productSet": {
-                                      "styles": {
-                                        "products": {
-                                          "@media (min-width: 601px)": {
-                                            "margin-left": "-20px"
-                                          }
-                                        }
-                                      }
-                                    },
-                                    "modalProduct": {
-                                      "contents": {
-                                        "img": false,
-                                        "imgWithCarousel": true,
-                                        "button": false,
-                                        "buttonWithQuantity": true
-                                      },
-                                      "styles": {
-                                        "product": {
-                                          "@media (min-width: 601px)": {
-                                            "max-width": "100%",
-                                            "margin-left": "0px",
-                                            "margin-bottom": "0px"
-                                          }
-                                        },
-                                        "button": {
-                                          "font-weight": "bold",
-                                          "font-size": "18px",
-                                          "padding-top": "17px",
-                                          "padding-bottom": "17px",
-                                          "color": "#000000",
-                                          ":hover": {
-                                            "color": "#000000",
-                                            "background-color": "#e6cd00"
-                                          },
-                                          "background-color": "#ffe400",
-                                          ":focus": {
-                                            "background-color": "#e6cd00"
-                                          },
-                                          "padding-left": "50px",
-                                          "padding-right": "50px"
-                                        },
-                                        "quantityInput": {
-                                          "font-size": "18px",
-                                          "padding-top": "17px",
-                                          "padding-bottom": "17px"
-                                        },
-                                        "title": {
-                                          "font-family": "Helvetica Neue, sans-serif",
-                                          "font-weight": "bold",
-                                          "font-size": "26px",
-                                          "color": "#4c4c4c"
-                                        },
-                                        "price": {
-                                          "font-family": "Helvetica Neue, sans-serif",
-                                          "font-weight": "normal",
-                                          "font-size": "18px",
-                                          "color": "#4c4c4c"
-                                        },
-                                        "compareAt": {
-                                          "font-family": "Helvetica Neue, sans-serif",
-                                          "font-weight": "normal",
-                                          "font-size": "15.299999999999999px",
-                                          "color": "#4c4c4c"
-                                        },
-                                        "unitPrice": {
-                                          "font-family": "Helvetica Neue, sans-serif",
-                                          "font-weight": "normal",
-                                          "font-size": "15.299999999999999px",
-                                          "color": "#4c4c4c"
-                                        }
-                                      },
-                                      "text": {
-                                        "button": "Add to cart"
-                                      }
-                                    },
-                                    "option": {},
-                                    "cart": {
-                                      "styles": {
-                                        "button": {
-                                          "font-weight": "bold",
-                                          "font-size": "18px",
-                                          "padding-top": "17px",
-                                          "padding-bottom": "17px",
-                                          "color": "#000000",
-                                          ":hover": {
-                                            "color": "#000000",
-                                            "background-color": "#e6cd00"
-                                          },
-                                          "background-color": "#ffe400",
-                                          ":focus": {
-                                            "background-color": "#e6cd00"
-                                          }
-                                        }
-                                      },
-                                      "text": {
-                                        "total": "Subtotal",
-                                        "button": "Checkout"
-                                      }
-                                    },
-                                    "toggle": {
-                                      "styles": {
-                                        "toggle": {
-                                          "font-weight": "bold",
-                                          "background-color": "#ffe400",
-                                          ":hover": {
-                                            "background-color": "#e6cd00"
-                                          },
-                                          ":focus": {
-                                            "background-color": "#e6cd00"
-                                          }
-                                        },
-                                        "count": {
-                                          "font-size": "18px",
-                                          "color": "#000000",
-                                          ":hover": {
-                                            "color": "#000000"
-                                          }
-                                        },
-                                        "iconPath": {
-                                          "fill": "#000000"
-                                        }
-                                      }
-                                    }
-                                  },
-                                        });
-                                      });
-                                    }
-                                  })();
-                                  /*]]>*/
-                                  </script>
-
-                                  
-                              </div>
-
-                              
-                          </div>
-                      </div>     
-                      
-                      
-                    
-                  </section>
 
 
 
@@ -870,7 +859,7 @@ display: flex;
                 
 
 <!-- hero section -->
-<!-- <section id="home" class="min-h-100vh flex justify-start items-center" style="margin-top:100px;
+<section id="home" class="min-h-100vh flex justify-start items-center" style="margin-top:100px;
 background-image: url('/assets/images/decentralized_bg.jpg');
 background-size: cover;
 background-position: bottom;
@@ -886,11 +875,11 @@ flex-direction: column;
 align-content: flex-start;
 align-items: flex-start;">
 
-<h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Decentralizing Chicago's <br>Underground.<br /></h1>
+<h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Embracing<br>Decentralization<br /></h1>
 
 
-<p class="white bg-black p-3 opacity-100 mt-3">Sustaining artists through <br> <a href="https://5mag.net/tracks/new-releases/craig-alexander-rolla-disco/" target="_blank"></a></span>
-<div class="white opacity-20 fs-s3 mt-3">No credit card required</span>
+<p class="white bg-black p-3 opacity-100 mt-3">Sustaining Our House Culture<br> <a href="https://5mag.net/tracks/new-releases/craig-alexander-rolla-disco/" target="_blank"></a></span>
+<!-- <div class="white opacity-20 fs-s3 mt-3">No credit card required</span> -->
 </div>
 </div>
 </section>
@@ -1369,9 +1358,15 @@ align-items: flex-start;">
     <footer class="p-5 md-p-l4 bg-indigo-lightest-10 flex flex-row justify-center flex-wrap">
         <div class="flex flex-row justify-center flex-wrap">
             <div class="md-w-pc mt-5">
-                <img src="assets/images/logo.png" class="w-l9" alt="">
 
-                
+              <a href="https://edittrax.com" target="blank">
+              
+              <img src="assets/images/et_logo.svg" class="w-l9" alt="">
+            
+            
+            </a>
+
+               
                   
                 <ul class="list-none mt-5 fs-s2"
                 style="
@@ -1388,8 +1383,9 @@ align-items: flex-start;">
                   <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Contact</a>
                   </li> -->
                   <li class="my-3"><a href="#"></a>
+                    <li class="my-3"><a href="https://ipfs.io/" target="blank" class="white opacity-70 no-underline hover-underline">Coming Soon</a>
+                    <li class="my-3"><a href="https://t.me/joinchat/UaSFQWt9D2eeHAnz" target="blank" class="white opacity-70 no-underline hover-underline">Join our Telegram</a>
 
-                  <li class="my-3"><a href="https://ipfs.io/" class="white opacity-70 no-underline hover-underline">Hosted on IPFS</a>
                   </li>
                 </ul>
                 
