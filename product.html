@@ -29,6 +29,49 @@
 //   gtag('config', 'G-BEPPHJTT6Z');
 </script>
 
+<style>
+    .card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: auto;
+    width:100%;
+    /* max-width: 30vw; */
+  }
+
+  .cards {
+    max-width: 30vw;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  iframe {
+    width: 100%;
+        height: 300px;
+        min-width:320px;
+        min-height:280px;
+        src: url("https://mendoza.on.fleek.co/");
+        margin-left:auto;
+        margin-right:auto;
+        /* border-radius:20px; */
+        border:0px solid white;
+        /* margin-top: 50px; */
+        display: flex;
+        /* max-height:400px; */
+  }
+
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  html { font-size: 22px; }
+body { padding: 0rem; }
+</style>
 
 </head>
 
@@ -37,14 +80,14 @@
   z-index: 10;
 ">
 
-
 <!-- content -->
 <section class="pl-0 pr-0 bg-indigo-lightest-10 justify-start items-start flex-wrap" style="display:flex; flex-direction:column;">
 
     <div style="
-    width: 90vw;
-    min-width:350px;
-    max-width:800px;
+
+    width: 100%;
+    min-width: 350px;
+    max-width: 800px;
     margin-left:auto;
     margin-right:auto;
     /* border-radius:20px; */
@@ -52,6 +95,7 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    justify-content: center;
     /* max-height:400px; */">   
     
         <ul class="list-none mt-5 fs-s2"
@@ -72,12 +116,12 @@
         </ul>
     </div>  
 
-    <iframe src="https://mendoza.on.fleek.co/" title="" style="
+    <iframe src="https://edittrax.on.fleek.co/" title="" style="
 
-    width: 90vw;
-    height: 90vh;
+    width: 65vh;
+    height: 65vh;
     min-width:350px;
-    max-width:800px;
+    max-width:100vw;
 
     margin-left:auto;
     margin-right:auto;
@@ -92,7 +136,7 @@
 
     <div style="
     width: 90vw;
-    height: 700px;
+    height: auto;
     min-width:350px;
     max-width:800px;
 
@@ -107,39 +151,57 @@
     ">
     
 
-            <div class="my-3"  style="color:rgb(104, 104, 104); width:100%; border-bottom: 1px solid grey; max-width:90vw;">           
-                <p class="fw-600 white fs-m1 mt-10">
-                    INFO
-                </p>
+            <div class="my-3"  style="color:rgb(104, 104, 104); width:100%; border-bottom: 1px solid grey; max-width:90vw;
+            display: flex;
+            color: rgb(104, 104, 104);
+            width: 100%;
+            border-bottom: 1px solid grey;
+            max-width: 90vw;
+            justify-content: space-between;">           
+                <div>
+                    <p class="fw-600 white fs-m1 mt-10">
+                        "Acid Beach"
+                    </p>
+                    <p class="fw-600 grey fs-s5 mt-2 mb-5">
+                        Track: BAI-EE<br>
+                        Artist: #####<br>
+                        Developer: #####<br>
+                        Label: #####<br>
+
+                    </p>
+                </div>
+                
+                <div>
+                    <p class="fw-600 grey fs-m1 mt-10 text-right">
+                        #### Editions
+                    </p>
+                    <p class="fw-600 grey fs-s5 mt-2 mb-5 text-right">
+                        OBJECT NUMBER<br>   
+                        Total sales volume: XXXX ꜩ<br> 
+                        Primary sales volume: XXXX ꜩ<br> 
+                        Secondary sales volume: XXXX ꜩ<br> 
+                    </p>
+
+                    
+                </div>
             </div>
 
+
+            
+            
+            <div class="white grey fs-s3 italic my-4">
+                <!-- <img src="assets/images/craig_qr.png" class="w-l9 mt-4" alt=""> -->
+            </div>
 
             <div class="white grey fs-s3 italic my-4">
-                <img src="assets/images/craig_qr.png" class="w-l9 mt-4" alt="">
-            </div>
-
-            <div class="my-3"  style="color:rgb(104, 104, 104);">           
-                <p class="fw-600 white fs-m3 mt-0">
-                    Blank Canvas
-                    <br>
-                    "Untitled"
+                Interactive Digital Collectibles
+                <p href="https://www.editTrax.com" target="blank" class="">
+                <!-- <br>Powered By EditTrax.NFT -->
                 </p>
-
-                <div class="white grey fs-s3 italic my-4">
-                    Interactive Digital Collectible
-                    <a href="https://www.editTrax.com" target="blank" class="">
-                    <br>Powered By EditTrax.NFT
-                    </a>
-                </div>
-
             </div>
 
-            <div class="my-3fw-600 white fs-m3 mt-3">
-                Edition (Not for sale)
-                <a href="https://www.editTrax.com" target="blank" class="">
-                <br>
-                </a>
-            </div>
+            
+
         </div>
     </div>
 
@@ -147,6 +209,34 @@
 
         
 </section>
+
+
+
+<div class="cards" style="max-width:100vw;">
+    <div class="card">
+        <iframe title=""></iframe>
+    </div>
+    <div class="card">
+        <iframe title=""></iframe>
+    </div>
+    <div class="card">
+        <iframe title=""></iframe>
+    </div>
+    <div class="card">
+        <iframe title=""></iframe>
+    </div>
+    <div class="card">
+        <iframe title=""></iframe>
+    </div>
+    <div class="card">
+        <iframe title=""></iframe>
+    </div>
+</div>
+
+
+
+
+
 
             
         
